@@ -1,0 +1,90 @@
+body {
+    background-color: #212121 !important;
+    color: #fff;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Poppins', sans-serif !important;
+  }
+  header {
+    padding: 10px;
+  }
+  .div-container {
+    margin-top: 30px;
+  }
+  .div-table {
+    padding: 20px;
+  }
+  .table thead th {
+    color: #fff;
+    background-color: #333;
+  }
+  .dados-tr {
+    //color: #fff;
+    background-color: #333!;
+  }
+
+  .icon {
+    color: #fff;
+    text-decoration: none;
+  }
+  .update {
+    color: #4caf50;
+  }
+  .delete {
+    color: #f44336;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .btn-cadastro {
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .btn-cadastro:hover {
+    background-color: #45a049;
+  }
+
+  .btn-sair {
+    background-color: #cf0638;
+    border: none;
+    color: #fff;
+    padding: 10px 76px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .btn-sair:hover {
+    background-color: #b9030f;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    gap: 2rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }

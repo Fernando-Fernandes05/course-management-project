@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+  header {
+    padding: 10px;
+  }
+
+  .container {
+    background-color: rgb(30, 30, 30);
+    padding: 40px;
+    border-radius: 8px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  input[type="text"],
+  input[type="number"] {
+    width: 22rem;
+    height: 2.5rem;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    resize: vertical;
+    overflow-y: auto;
+  }
+
+  input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    }
+
+  button[type="submit"] {
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    width: 7rem;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  .btn-sair {
+    background-color: #cf0638;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    width: 7rem;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .btn-sair:hover {
+    background-color: #b9030f;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    gap: 2rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
